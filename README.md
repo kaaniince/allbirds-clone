@@ -15,7 +15,7 @@ Projeyi farklı repo'da paylaşmıştım. Bunlara ait commitlerim bu şekildedir
 Öncelikle projeyi clonelayın.
 
 ```
-git clone https://github.com/Patika-newmind-fullstack/odev1-kaaniince.git
+git clone https://github.com/kaaniince/allbirds-clone.git
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ Projeyi cloneladıktan sonra Visual Studio Code programında açınız.
 Linux için:
 
 ```
-cd odev1-kaaniince
+cd allbirds-clone
 code .
 ```
 
