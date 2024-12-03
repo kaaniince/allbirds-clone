@@ -1,0 +1,102 @@
+/* Button styles */
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.6s;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-button,
+.update-button,
+.save-button {
+  border-radius: 6px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.delete-button {
+  background-color: white;
+  color: black;
+  border: 2px solid #212121;
+}
+
+.delete-button:hover {
+  background-color: #212121;
+  color: white;
+}
+
+.update-button,
+.save-button {
+  background-color: white;
+  color: rgb(177, 151, 118);
+  border: 2px solid rgb(177, 151, 118);
+}
+
+.update-button:hover,
+.save-button:hover {
+  background-color: rgb(177, 151, 118);
+  color: white;
+}
+
+.filter-button {
+  background-color: rgb(177, 151, 118);
+  color: white;
+  border: 2px solid rgb(177, 151, 118);
+  border-radius: 6px;
+  font-weight: bold;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.filter-button:hover {
+  background-color: white;
+  color: rgb(177, 151, 118);
+}
+
+.filter-price {
+  width: 400px;
+  border-radius: 10px;
+  padding: 20px 25px 40px;
+}
+
+.price-input {
+  width: 100%;
+  display: flex;
+}
+
+.price-input .field {
+  height: 45px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.field input {
+  width: 100%;
+  height: 100%;
+  margin-left: 12px;
+  border: 1px solid #999;
+  outline: none;
+  border-radius: 5px;
+  font-size: 19px;
+  text-align: center;
+}
+
+.price-input .separator {
+  width: 130px;
+  display: flex;
+  font-size: 19px;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
